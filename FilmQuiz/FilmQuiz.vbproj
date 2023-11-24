@@ -76,7 +76,9 @@
     <Compile Include="frmHighScore.Designer.vb">
       <DependentUpon>frmHighScore.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmHighScore.vb" />
+    <Compile Include="frmHighScore.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
     </Compile>

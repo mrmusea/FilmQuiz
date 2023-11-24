@@ -51,7 +51,7 @@ Partial Class frmQuestion3
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(298, 20)
         Me.TextBox1.TabIndex = 2
-        Me.TextBox1.Text = "1) What was the name of Scooby-Doo's original TV series?"
+        Me.TextBox1.Text = "3) What was the name of Scooby-Doo's original TV series?"
         '
         'Button1
         '
@@ -86,7 +86,7 @@ Partial Class frmQuestion3
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(395, 20)
         Me.TextBox2.TabIndex = 6
-        Me.TextBox2.Text = "2) Which Scooby villain was supposed to help run Funland before he turned evil?"
+        Me.TextBox2.Text = "4) Which Scooby villain was supposed to help run Funland before he turned evil?"
         '
         'Button4
         '

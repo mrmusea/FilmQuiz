@@ -30,7 +30,7 @@ Partial Class frmMain
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtName = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -105,12 +105,12 @@ Partial Class frmMain
         Me.Button3.Text = "Start"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtName
         '
-        Me.TextBox1.Location = New System.Drawing.Point(177, 374)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(171, 20)
-        Me.TextBox1.TabIndex = 8
+        Me.txtName.Location = New System.Drawing.Point(177, 374)
+        Me.txtName.Name = "txtName"
+        Me.txtName.Size = New System.Drawing.Size(171, 20)
+        Me.txtName.TabIndex = 8
         '
         'Label2
         '
@@ -127,7 +127,7 @@ Partial Class frmMain
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(901, 480)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.PictureBox4)
@@ -153,6 +153,6 @@ Partial Class frmMain
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtName As TextBox
     Friend WithEvents Label2 As Label
 End Class

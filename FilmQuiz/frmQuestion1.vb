@@ -11,8 +11,11 @@ Progress(OfCount = 0
 
     End Sub
     PrivateSub btnNext_Click(sender As Object, As Even 
-    
-If btnAnswer2.Checked Then
+Private Sub RadioButton3_CheckedChanged(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    If btnAnswer2.Checked Then
     playerScore = PlayerScore + 1
     End If
 
