@@ -2,11 +2,11 @@
     Private Sub 
 playerScore
     Private Sub btnNext()
-Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+Private Sub Button1_Click(sender As Object, e As EventArgs) 
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) 
 
     End Sub
 
@@ -22,11 +22,11 @@ Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Clic
 
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) 
 
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) 
 
     End Sub
 End Class

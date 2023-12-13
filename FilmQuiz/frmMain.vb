@@ -1,9 +1,19 @@
 ﻿Public Class frmMain
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+        playerScore = 0
+        playerName = txtName.Text
+        frmQuestion1.Show()
+
+        Me.Hide()
+
+
 
     End Sub
 
-    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Application.Exit()
     End Sub
 End Class

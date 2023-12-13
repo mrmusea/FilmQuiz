@@ -27,9 +27,9 @@ Partial Class frmQuestion1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -43,7 +43,7 @@ Partial Class frmQuestion1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(316, 270)
+        Me.Button2.Location = New System.Drawing.Point(360, 255)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(162, 64)
         Me.Button2.TabIndex = 7
@@ -53,7 +53,7 @@ Partial Class frmQuestion1
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(282, 67)
+        Me.PictureBox1.Location = New System.Drawing.Point(337, 62)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(240, 165)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -68,41 +68,47 @@ Partial Class frmQuestion1
         Me.TextBox1.TabIndex = 12
         Me.TextBox1.Text = "1) What does the group of kids who fight against Pennywise call themselves?"
         '
-        'Button1
+        'RadioButton1
         '
-        Me.Button1.Location = New System.Drawing.Point(9, 91)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(194, 40)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "a) The Club of 6"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(21, 108)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(101, 17)
+        Me.RadioButton1.TabIndex = 16
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "a) The Club of 6"
+        Me.RadioButton1.UseVisualStyleBackColor = True
         '
-        'Button3
+        'RadioButton2
         '
-        Me.Button3.Location = New System.Drawing.Point(17, 150)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(185, 41)
-        Me.Button3.TabIndex = 14
-        Me.Button3.Text = "b) The Losers Club"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(21, 151)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(114, 17)
+        Me.RadioButton2.TabIndex = 17
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "b) The Losers Club"
+        Me.RadioButton2.UseVisualStyleBackColor = True
         '
-        'Button4
+        'RadioButton3
         '
-        Me.Button4.Location = New System.Drawing.Point(20, 218)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(182, 40)
-        Me.Button4.TabIndex = 15
-        Me.Button4.Text = "c) They Dont Have a Name"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(21, 189)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(156, 17)
+        Me.RadioButton3.TabIndex = 18
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "c) They Dont Have a Name"
+        Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'frmQuestion1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(653, 441)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(682, 389)
+        Me.Controls.Add(Me.RadioButton3)
+        Me.Controls.Add(Me.RadioButton2)
+        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button2)
@@ -118,7 +124,7 @@ Partial Class frmQuestion1
     Friend WithEvents Button2 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents RadioButton3 As RadioButton
 End Class

@@ -2,8 +2,8 @@
 
 
     Public playerName As String
-    Public playerSScore As Integer
-
+    Public playerScore As Integer
+    Public ProgressCount = 0
 
 
 End Module
